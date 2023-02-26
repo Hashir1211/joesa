@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://joematkin.com
+
+# Sitemaps
+Sitemap: https://joematkin.com/sitemap.xml

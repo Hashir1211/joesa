@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "baseUrl": "src",
+    "paths": {
+      "@/styles/*": ["src/styles/*"],
+      "@/public/*": ["./public/*"]
+    },
+    "lib": ["dom", "dom.iterable", "esnext", "es2020"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "types": ["node"],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/products/[slug]/page.tsx",
+    "studio/schemas/documents/page.js",
+    "src/pages/components/layout/Section.tsx",
+    "src/lib/client.js",
+    "src/lib/sanity.image.js",
+    "studio/schemas/documents/service.ts",
+    "next.config.js",
+    "src/styles/themeData.js",
+    "src/app/layout.tsx",
+    "src/lib/registry.tsx",
+    "src/lib/registry.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
